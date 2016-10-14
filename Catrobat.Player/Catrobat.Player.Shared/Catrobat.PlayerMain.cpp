@@ -49,6 +49,7 @@ namespace Catrobat_Player
 	{
 		if (ProjectDaemon::Instance()->CreateNativeProject(projectName))
 		{
+			//Test
 			m_basic2dRenderer = std::unique_ptr<Basic2DRenderer>(new Basic2DRenderer(
 				m_deviceResources));
 			ProcessXamlPageContent(playerPage);
